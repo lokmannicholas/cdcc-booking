@@ -1,0 +1,1154 @@
+.page {
+  --primary: #0c86c8;
+  --primary-dark: #0b2a78;
+  --hero-bg: #dbeaf4;
+  --panel-bg: #f7f7f7;
+  --surface: #ffffff;
+  --surface-tinted: #d8ecfa;
+  --surface-soft: #eaf4fb;
+  --line: #bcc2c8;
+  --muted: #b8b8b8;
+  --text: #10315d;
+  --shadow: 0 6px 20px rgba(16, 49, 93, 0.06);
+
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(180deg, var(--hero-bg) 0, var(--hero-bg) 22rem, #f3f4f6 22rem, #f3f4f6 100%);
+  color: var(--text);
+}
+
+.hero {
+  flex: 0 0 auto;
+  padding: 2.6rem 1.5rem 6.5rem;
+}
+
+.heroInner {
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+.topBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.titleBlock {
+  padding-top: 2.2rem;
+  display: flex;
+  align-items: flex-end;
+  min-height: 6.5rem;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: 1.45rem;
+  line-height: 1.02;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: var(--primary-dark);
+}
+
+.brandStack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.brandMark {
+  width: clamp(13.5rem, 15vw, 18.5rem);
+  height: auto;
+  transform-origin: top right;
+}
+
+.localeSwitcher {
+  display: inline-flex;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.3rem;
+  box-shadow: var(--shadow);
+}
+
+.localeChip {
+  border: none;
+  background: transparent;
+  color: var(--primary-dark);
+  font-weight: 700;
+  min-width: 2.75rem;
+  height: 2.35rem;
+  border-radius: 999px;
+  padding: 0 0.9rem;
+}
+
+.localeChipActive {
+  background: var(--primary-dark);
+  color: #fff;
+}
+
+.stepper {
+  list-style: none;
+  padding: 2.25rem 0 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.stepNode {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: fit-content;
+}
+
+.stepCircle {
+  width: 2.65rem;
+  height: 2.65rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.25rem;
+  border: 2px solid #fff;
+}
+
+.stepLabel {
+  font-size: 1.65rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.stepConnector {
+  height: 2px;
+  flex: 1;
+  margin: 0 1rem;
+  background: var(--line);
+}
+
+.pending .stepCircle {
+  background: var(--muted);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--muted);
+}
+
+.pending .stepLabel {
+  color: var(--muted);
+}
+
+.current .stepCircle {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--primary-dark);
+}
+
+.current .stepLabel {
+  color: var(--primary);
+}
+
+.complete .stepCircle {
+  background: var(--primary-dark);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--primary-dark);
+}
+
+.complete .stepLabel {
+  color: var(--primary-dark);
+}
+
+.complete > .stepConnector {
+  background: var(--primary-dark);
+}
+
+.panel {
+  flex: 1 1 auto;
+  max-width: 92rem;
+  margin: -4.5rem auto 2.5rem;
+  width: min(92rem, calc(100% - 3rem));
+  background: var(--panel-bg);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.panelScrollArea {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 0.35rem;
+}
+
+.panelBody {
+  flex: 1;
+  min-height: 0;
+}
+
+.messageBar {
+  background: #fff5ea;
+  color: #a74f08;
+  border-radius: 1rem;
+  padding: 1rem 1.15rem;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.7rem;
+  min-height: 20rem;
+}
+
+.serviceCard {
+  appearance: none;
+  border: none;
+  background: var(--surface);
+  border-radius: 1.65rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 17rem;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
+}
+
+.serviceCard:hover,
+.clinicCard:hover,
+.regionTab:hover,
+.calendarDay:hover:not(:disabled),
+.radioCard:hover,
+.choiceOption:hover,
+.primaryButton:hover,
+.secondaryButton:hover,
+.localeChip:hover,
+.monthButton:hover,
+.modalButton:hover {
+  transform: translateY(-1px);
+}
+
+.serviceCardSelected {
+  background: var(--surface-tinted);
+}
+
+.cardHeader {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.65rem;
+  line-height: 1.2;
+  text-align: center;
+  padding: 1.15rem 1rem;
+}
+
+.serviceIconWrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  padding: 2rem 1rem;
+}
+
+.serviceIconLarge {
+  width: 8.5rem;
+  height: 6.8rem;
+  color: var(--primary);
+}
+
+.locationStage {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.regionTabs {
+  display: inline-flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.regionTab {
+  border: none;
+  background: var(--muted);
+  color: #fff;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1.35rem;
+  font-weight: 800;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.regionTabActive {
+  background: var(--primary-dark);
+}
+
+.clinicGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.clinicCard {
+  appearance: none;
+  border: none;
+  background: var(--surface);
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  padding: 0;
+  text-align: left;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease,
+    outline-color 0.18s ease;
+  outline: 3px solid transparent;
+  outline-offset: -3px;
+}
+
+.clinicCardSelected {
+  background: var(--surface);
+  outline-color: var(--primary);
+}
+
+.clinicHeader {
+  background: var(--surface-tinted);
+  color: var(--primary-dark);
+  font-size: 1.45rem;
+  line-height: 1.2;
+  font-weight: 800;
+  padding: 0.9rem 1rem;
+}
+
+.clinicHeaderSelected {
+  background: var(--surface-tinted);
+  color: var(--primary-dark);
+}
+
+.clinicBody {
+  padding: 1rem 1.05rem 1.15rem;
+}
+
+.clinicAddress {
+  margin: 0 0 0.9rem;
+  white-space: pre-line;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 800;
+}
+
+.infoLine {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.infoLineLabel {
+  font-weight: 800;
+}
+
+.hoursBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.hoursTitle {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.hoursDivider {
+  width: 100%;
+  height: 2px;
+  background: rgba(12, 134, 200, 0.5);
+}
+
+.hoursTable {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.8rem;
+  align-items: start;
+}
+
+.hoursKey,
+.hoursValue {
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.emptyState {
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 2.2rem 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+.scheduleLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
+  gap: 1.2rem;
+}
+
+.scheduleSidebar,
+.scheduleMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detailCard {
+  background: transparent;
+}
+
+.detailCardHeader {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.9rem 1.1rem;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.detailCardBody {
+  background: var(--surface-tinted);
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem 1.1rem 1.15rem;
+  box-shadow: var(--shadow);
+}
+
+.detailClinicCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.serviceSummary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.serviceSummaryText {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.summaryIconWrap {
+  color: var(--primary);
+  flex: 0 0 auto;
+}
+
+.summaryIcon {
+  width: 2.8rem;
+  height: 2.6rem;
+}
+
+.summaryIconSmall {
+  width: 2.45rem;
+  height: 2.35rem;
+}
+
+.warningText {
+  margin: 0;
+  color: #d32727;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.calendarCard {
+  background: var(--surface);
+  border-radius: 1.1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.calendarTitleBar {
+  background: var(--primary);
+  color: #fff;
+  padding: 1rem 1.25rem 0.8rem;
+  text-align: center;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.calendarHint {
+  display: inline-block;
+  margin-left: 0.45rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.calendarMonthBar {
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+  align-items: center;
+  background: var(--primary);
+  color: #fff;
+  padding: 0 0.8rem 0.9rem;
+}
+
+.monthButton {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  height: 2.5rem;
+  border-radius: 999px;
+}
+
+.monthLabel {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0;
+  padding: 0.8rem 1rem 1rem;
+  background: var(--surface);
+}
+
+.calendarWeekday {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--primary);
+  padding: 0.4rem 0 0.7rem;
+  border-bottom: 2px solid rgba(12, 134, 200, 0.25);
+}
+
+.calendarDay {
+  border: none;
+  background: transparent;
+  color: var(--primary);
+  font-size: 1.8rem;
+  font-weight: 800;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 4rem;
+  border-radius: 0.65rem;
+}
+
+.calendarDayMuted {
+  color: rgba(16, 49, 93, 0.25);
+}
+
+.calendarDayDisabled {
+  color: rgba(16, 49, 93, 0.28);
+  cursor: default;
+}
+
+.calendarDaySelected {
+  background: rgba(12, 134, 200, 0.16);
+}
+
+.timeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.25rem;
+}
+
+.radioCard,
+.choiceOption {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 999px;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+  color: var(--primary-dark);
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease;
+}
+
+.radioCardSelected,
+.choiceOptionActive {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.radioDot {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.radioCardSelected .radioDot::after,
+.choiceOptionActive .radioDot::after {
+  content: "";
+  position: absolute;
+  inset: 0.18rem;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.radioText {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.radioMeta {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.visuallyHidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.formStack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.formCard {
+  background: var(--surface-tinted);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+  padding: 1.2rem 1.3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1.35fr);
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.formIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.formLabel {
+  margin: 0;
+  font-size: 1.55rem;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.formHint {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.formInput {
+  border: none;
+  border-radius: 0.9rem;
+  background: #fff;
+  padding: 1rem 1.1rem;
+  min-height: 4.2rem;
+  box-shadow: inset 0 0 0 2px rgba(16, 49, 93, 0.05);
+  color: var(--text);
+}
+
+.choiceOptions {
+  display: flex;
+  align-items: center;
+  gap: 1rem 1.2rem;
+  flex-wrap: wrap;
+}
+
+.confirmLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.outlineNote {
+  border: 2px solid var(--primary);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.45rem;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.summaryCard {
+  background: var(--surface);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.summaryCardHeader {
+  background: var(--surface-tinted);
+  color: var(--primary-dark);
+  font-size: 1.35rem;
+  line-height: 1.2;
+  font-weight: 800;
+  padding: 0.9rem 1rem;
+}
+
+.summaryCardBody {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summaryInline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  color: var(--primary);
+}
+
+.summaryStrong {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 800;
+  color: var(--primary);
+  white-space: pre-line;
+}
+
+.summaryUtilityIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--primary-dark);
+  flex: 0 0 auto;
+}
+
+.dateTimeStack,
+.personalSummary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.actionBar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0;
+  padding-top: 0.25rem;
+  background: var(--panel-bg);
+}
+
+.secondaryButton,
+.primaryButton {
+  border: none;
+  border-radius: 0.95rem;
+  min-width: 8.4rem;
+  height: 4rem;
+  padding: 0 1.5rem;
+  color: #fff;
+  font-size: 1.45rem;
+  line-height: 1;
+  font-weight: 800;
+  box-shadow: var(--shadow);
+}
+
+.secondaryButton {
+  background: var(--muted);
+}
+
+.primaryButton {
+  background: var(--primary);
+}
+
+.primaryButton:disabled {
+  opacity: 0.75;
+  cursor: progress;
+}
+
+.primaryButtonLoading {
+  opacity: 0.75;
+}
+
+.successStage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28rem;
+}
+
+.successCard {
+  max-width: 40rem;
+  width: 100%;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 1.35rem;
+  padding: 2.8rem 2rem;
+  text-align: center;
+}
+
+.successTitle {
+  margin: 0 0 1rem;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.successText {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 24, 49, 0.25);
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  z-index: 40;
+}
+
+.modalCard {
+  width: min(32rem, 100%);
+  border-radius: 1.5rem;
+  background: #f2f0ec;
+  box-shadow: 0 20px 40px rgba(10, 24, 49, 0.15);
+  padding: 2rem 1.5rem 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modalIconWrap {
+  color: var(--primary);
+}
+
+.modalIcon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.modalText {
+  margin: 0;
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 1.45rem;
+  line-height: 1.45;
+  font-weight: 800;
+}
+
+.modalButton {
+  border: none;
+  border-radius: 0.85rem;
+  min-width: 7rem;
+  height: 3.5rem;
+  padding: 0 1.2rem;
+  background: var(--primary-dark);
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 1100px) {
+  .titleBlock {
+    padding-top: 1.6rem;
+    min-height: 5.4rem;
+  }
+
+  .stepLabel {
+    font-size: 1.25rem;
+  }
+
+  .scheduleLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .clinicGrid,
+  .summaryGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .formCard {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    background:
+      linear-gradient(180deg, var(--hero-bg) 0, var(--hero-bg) 17rem, #f3f4f6 17rem, #f3f4f6 100%);
+  }
+
+  .hero {
+    padding: 1.8rem 1rem 2rem;
+  }
+
+  .panel {
+    width: calc(100% - 1rem);
+    margin: 0.5rem auto;
+    border-radius: 1.5rem;
+    padding: 1.1rem 0.95rem 0.95rem;
+  }
+
+  .panelScrollArea {
+    padding-right: 0.15rem;
+  }
+
+  .topBar {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .brandStack {
+    width: 100%;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  .titleBlock {
+    padding-top: 0;
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+  }
+
+  .pageTitle {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .brandMark {
+    margin-inline: auto;
+  }
+
+  .stepper {
+    padding-top: 1.4rem;
+    align-items: flex-start;
+  }
+
+  .stepItem {
+    position: relative;
+    display: block;
+    min-width: 0;
+  }
+
+  .stepNode {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .stepCircle {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  .stepLabel {
+    white-space: normal;
+    text-align: center;
+    font-size: 0.95rem;
+    min-height: 2.4rem;
+  }
+
+  .stepConnector {
+    position: absolute;
+    top: 1.2rem;
+    left: calc(50% + 1.65rem);
+    width: calc(100% - 3.3rem);
+    margin: 0;
+  }
+
+  .messageBar {
+    font-size: 0.95rem;
+  }
+
+  .serviceGrid,
+  .clinicGrid,
+  .summaryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard {
+    min-height: 15rem;
+  }
+
+  .actionBar {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero {
+    padding: 1.8rem 1rem 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardHeader,
+  .detailCardHeader,
+  .calendarTitleBar,
+  .outlineNote {
+    font-size: 1.35rem;
+  }
+
+  .clinicHeader,
+  .summaryCardHeader,
+  .formLabel {
+    font-size: 1.25rem;
+  }
+
+  .clinicAddress,
+  .summaryStrong {
+    font-size: 1.15rem;
+  }
+
+  .hoursKey,
+  .hoursValue,
+  .infoLine,
+  .formHint,
+  .warningText {
+    font-size: 0.95rem;
+  }
+
+  .monthLabel {
+    font-size: 1.55rem;
+  }
+
+  .calendarWeekday {
+    font-size: 0.95rem;
+  }
+
+  .calendarDay {
+    font-size: 1.35rem;
+    max-height: 3.2rem;
+  }
+
+  .timeGrid,
+  .choiceOptions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .secondaryButton,
+  .primaryButton {
+    min-width: 7rem;
+    height: 3.55rem;
+    font-size: 1.2rem;
+  }
+
+  .successCard {
+    padding: 2rem 1.35rem;
+  }
+
+  .successTitle {
+    font-size: 2.1rem;
+  }
+
+  .successText {
+    font-size: 1.25rem;
+  }
+
+  .modalText {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .brandMark {
+    width: min(13.25rem, 72vw);
+  }
+
+  .pageTitle {
+    font-size: 1.25rem;
+  }
+
+  .serviceIconLarge {
+    width: 7rem;
+    height: 5.6rem;
+  }
+
+  .stepLabel {
+    font-size: 0.82rem;
+  }
+
+  .cardHeader,
+  .detailCardHeader,
+  .calendarTitleBar,
+  .outlineNote {
+    font-size: 1.15rem;
+  }
+
+  .calendarHint {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.2rem;
+  }
+
+  .summaryStrong {
+    font-size: 1.05rem;
+  }
+
+  .summaryUtilityIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .actionBar {
+    gap: 0.8rem;
+  }
+
+  .secondaryButton,
+  .primaryButton {
+    flex: 1;
+    min-width: 0;
+  }
+}

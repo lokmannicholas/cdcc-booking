@@ -1,0 +1,1585 @@
+[
+  {
+    "id": "central-medical-diagnostic-centre-causeway-bay",
+    "region": "hk",
+    "district": {
+      "tc": "灣仔",
+      "sc": "湾仔",
+      "en": "Wan Chai"
+    },
+    "name": {
+      "tc": "宏康醫學診斷中心 (銅鑼灣-東角中心)",
+      "sc": "宏康医学诊断中心 (铜锣湾-东角中心)",
+      "en": "Central Medical Diagnostic Centre (Causeway Bay)"
+    },
+    "address": {
+      "tc": "銅鑼灣軒尼詩道555號東角中心13樓1304B室",
+      "sc": "铜锣湾轩尼诗道555号东角中心13楼1304B室",
+      "en": "Room 1304B, East Point Centre, 555 Hennessy Road, Causeway Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:30",
+      "tuesday": "09:00-13:30, 14:30-18:30",
+      "wednesday": "09:00-13:30, 14:30-18:30",
+      "thursday": "09:00-13:30, 14:30-18:30",
+      "friday": "09:00-13:30, 14:30-18:30",
+      "saturday": "09:00-13:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-causeway-bay",
+    "region": "hk",
+    "district": {
+      "tc": "灣仔",
+      "sc": "湾仔",
+      "en": "Wan Chai"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (銅鑼灣)",
+      "sc": "卓健医疗中心 (铜锣湾)",
+      "en": "Quality HealthCare Medical Centre (Causeway Bay)"
+    },
+    "address": {
+      "tc": "銅鑼灣告士打道280號世貿中心24樓2405-06室",
+      "sc": "铜锣湾告士打道280号世贸中心24楼2405-06室",
+      "en": "Suite 2405-06, 24/F, World Trade Centre, 280 Gloucester Road, Causeway Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:00",
+      "tuesday": "09:00-13:00, 14:00-18:00",
+      "wednesday": "09:00-13:00, 14:00-18:00",
+      "thursday": "09:00-13:00, 14:00-18:00",
+      "friday": "09:00-13:00, 14:00-18:00",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "hong-kong-health-check-causeway-bay",
+    "region": "hk",
+    "district": {
+      "tc": "灣仔",
+      "sc": "湾仔",
+      "en": "Wan Chai"
+    },
+    "name": {
+      "tc": "香港體檢及醫學診斷中心 (銅鑼灣分部)",
+      "sc": "香港体检及医学诊断中心 (铜锣湾分部)",
+      "en": "Hong Kong Health Check & Medical Diagnostic Centre (Causeway Bay Branch)"
+    },
+    "address": {
+      "tc": "香港銅鑼灣恩平道44-48號恩平中心14樓",
+      "sc": "香港铜锣湾恩平道44-48号恩平中心14楼",
+      "en": "14/F, Fortune Centre, 44-48 Yun Ping Road, Causeway Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-18:00",
+      "tuesday": "09:00-18:00",
+      "wednesday": "09:00-18:00",
+      "thursday": "09:00-18:00",
+      "friday": "09:00-18:00",
+      "saturday": "09:00-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "central-medical-diagnostic-centre-central",
+    "region": "hk",
+    "district": {
+      "tc": "中西區",
+      "sc": "中西区",
+      "en": "Central and Western"
+    },
+    "name": {
+      "tc": "宏康醫學診斷中心 (中環)",
+      "sc": "宏康医学诊断中心 (中环)",
+      "en": "Central Medical Diagnostic Centre (Central)"
+    },
+    "address": {
+      "tc": "香港中環砵典乍街10號1樓及2樓",
+      "sc": "香港中环钵典乍街10号1楼及2楼",
+      "en": "1/F & 2/F, Che San Building, 10 Pottinger Street, Central"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:30",
+      "tuesday": "09:00-13:00, 14:00-18:30",
+      "wednesday": "09:00-13:00, 14:00-18:30",
+      "thursday": "09:00-13:00, 14:00-18:30",
+      "friday": "09:00-13:00, 14:00-18:30",
+      "saturday": "09:00-13:00, 14:00-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-admiralty",
+    "region": "hk",
+    "district": {
+      "tc": "中西區",
+      "sc": "中西区",
+      "en": "Central and Western"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (金鐘)",
+      "sc": "卓健医疗中心 (金钟)",
+      "en": "Quality HealthCare Medical Centre (Admiralty)"
+    },
+    "address": {
+      "tc": "金鐘夏慤道18號海富中心一期16樓1605-09室",
+      "sc": "金钟夏悫道18号海富中心一期16楼1605-09室",
+      "en": "Unit 1605-09, 16/F, Admiralty Centre Tower 1, 18 Harcourt Road, Admiralty"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-18:00",
+      "saturday": "08:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-central-crawford-house",
+    "region": "hk",
+    "district": {
+      "tc": "中西區",
+      "sc": "中西区",
+      "en": "Central and Western"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (中環-砵甸乍街)",
+      "sc": "卓健医疗中心 (中环-钵甸乍街)",
+      "en": "Quality HealthCare Medical Centre (Central - Crawford House)"
+    },
+    "address": {
+      "tc": "香港中環砵甸乍街10號5樓",
+      "sc": "香港中环钵甸乍街10号5楼",
+      "en": "Rm 706-709,710A-710B, 7/F, Crawford House, 70 Queen's Road Central, Central"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:00, 14:00-18:00",
+      "tuesday": "08:30-13:00, 14:00-18:00",
+      "wednesday": "08:30-13:00, 14:00-18:00",
+      "thursday": "08:30-13:00, 14:00-18:00",
+      "friday": "08:30-13:00, 14:00-18:00",
+      "saturday": "08:30-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-north-point",
+    "region": "hk",
+    "district": {
+      "tc": "東區",
+      "sc": "东区",
+      "en": "Eastern"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (北角)",
+      "sc": "卓健医疗中心 (北角)",
+      "en": "Quality HealthCare Medical Centre (North Point)"
+    },
+    "address": {
+      "tc": "北角北角道10號NPAC 21樓2101-2102室",
+      "sc": "北角北角道10号NPAC 21楼2101-2102室",
+      "en": "Suites 2101-2102, 21/F, NPAC, 10 North Point Road, North Point"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:30",
+      "tuesday": "09:00-13:30, 14:30-18:30",
+      "wednesday": "09:00-13:30, 14:30-18:30",
+      "thursday": "09:00-13:30, 14:30-18:30",
+      "friday": "09:00-13:30, 14:30-18:30",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-quarry-bay-oxford-house-taikoo-place",
+    "region": "hk",
+    "district": {
+      "tc": "東區",
+      "sc": "东区",
+      "en": "Eastern"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (鰂魚涌-太古坊濠豐大廈)",
+      "sc": "卓健医疗中心 (鲗鱼涌-太古坊濠丰大厦)",
+      "en": "Quality HealthCare Medical Centre (Quarry Bay-Oxford House Taikoo Place)"
+    },
+    "address": {
+      "tc": "鰂魚涌英皇道979號太古坊濠豐大廈304室",
+      "sc": "鲗鱼涌英皇道979号太古坊濠丰大厦304室",
+      "en": "Suite 304, Oxford House, Taikoo Place, 979 King's Road, Quarry Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:30, 14:30-18:30",
+      "tuesday": "08:30-13:30, 14:30-18:30",
+      "wednesday": "08:30-13:30, 14:30-18:30",
+      "thursday": "08:30-13:30, 14:30-18:30",
+      "friday": "08:30-13:30, 14:30-18:30",
+      "saturday": "08:30-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-quarry-bay-devon-house-taikoo-place",
+    "region": "hk",
+    "district": {
+      "tc": "東區",
+      "sc": "东区",
+      "en": "Eastern"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (鰂魚涌-太古坊德宏大廈)",
+      "sc": "卓健医疗中心 (鲗鱼涌-太古坊德宏大厦)",
+      "en": "Quality HealthCare Medical Centre (Quarry Bay-Devon House Taikoo Place)"
+    },
+    "address": {
+      "tc": "鰂魚涌太古坊英皇道979號德宏大廈17樓1707室",
+      "sc": "鲗鱼涌太古坊英皇道979号德宏大厦17楼1707室",
+      "en": "Suite 1707, 17/F, Devon House, Taikoo Place, 979 King’s Road, Quarry Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:00, 14:00-18:30",
+      "tuesday": "08:30-13:00, 14:00-18:30",
+      "wednesday": "08:30-13:00, 14:00-18:30",
+      "thursday": "08:30-13:00, 14:00-18:30",
+      "friday": "08:30-13:00, 14:00-18:00",
+      "saturday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": [
+      {
+        "tc": "星期六休息",
+        "sc": "星期六休息",
+        "en": "Closed on Sat"
+      }
+    ]
+  },
+  {
+    "id": "quality-healthcare-stanley",
+    "region": "hk",
+    "district": {
+      "tc": "南區",
+      "sc": "南区",
+      "en": "Southern"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (赤柱)",
+      "sc": "卓健医疗中心 (赤柱)",
+      "en": "Quality HealthCare Medical Centre (Stanley)"
+    },
+    "address": {
+      "tc": "赤柱赤柱廣場購物中心4樓406舖",
+      "sc": "赤柱赤柱广场购物中心4楼406铺",
+      "en": "Shop 406, Level 4, Shopping Centre, Stanley Plaza, Stanley"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:00",
+      "tuesday": "09:00-13:00, 14:00-18:00",
+      "wednesday": "09:00-13:00, 14:00-18:00",
+      "thursday": "09:00-13:00, 14:00-18:00",
+      "friday": "09:00-13:00, 14:00-18:00",
+      "saturday": "09:00-13:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-discovery-bay",
+    "region": "hk",
+    "district": {
+      "tc": "離島",
+      "sc": "离島",
+      "en": "Islands"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (愉景灣)",
+      "sc": "卓健医疗中心 (愉景湾)",
+      "en": "Quality HealthCare Medical Centre (Discovery Bay)"
+    },
+    "address": {
+      "tc": "愉景灣愉景灣廣場1樓B座108室",
+      "sc": "愉景湾愉景湾广场1楼B座108室",
+      "en": "Shop 108, Block B, 1/F Discovery Bay Plaza, Discovery Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:00-12:30, 14:00-17:30",
+      "tuesday": "08:00-12:30, 14:00-17:30",
+      "wednesday": "08:00-12:30, 14:00-17:30",
+      "thursday": "08:00-12:30, 14:00-17:30",
+      "friday": "08:00-12:30, 14:00-17:30",
+      "saturday": "08:30-12:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-tung-chung",
+    "region": "hk",
+    "district": {
+      "tc": "離島",
+      "sc": "离島",
+      "en": "Islands"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (東涌)",
+      "sc": "卓健医疗中心 (东涌)",
+      "en": "Quality HealthCare Medical Centre (Tung Chung)"
+    },
+    "address": {
+      "tc": "東涌慶東路一號東提灣畔地下18號舖",
+      "sc": "东涌庆东路一号东提湾畔地下18号铺",
+      "en": "Shop 18, G/F, Tung Chung Crescent, 1 Hing Tung Street, Tung Chung"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-19:00",
+      "tuesday": "09:00-13:30, 14:30-19:00",
+      "wednesday": "09:00-13:30, 14:30-19:00",
+      "thursday": "09:00-13:30, 14:30-19:00",
+      "friday": "09:00-13:30, 14:30-19:00",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "alpha-medical-diagnostic-centre-kowloon-bay",
+    "region": "hk",
+    "district": {
+      "tc": "觀塘",
+      "sc": "观塘",
+      "en": "Kwun Tong"
+    },
+    "name": {
+      "tc": "進領醫學診斷中心",
+      "sc": "进领医学诊断中心",
+      "en": "Alpha Medical Diagnostic Centre"
+    },
+    "address": {
+      "tc": "九龍九龍灣宏光道39號宏天廣場38樓3805B-8及3815室",
+      "sc": "九龙九龙湾宏光道39号宏天广场38楼3805B-8及3815室",
+      "en": "Room 3805B-8 & 3815, Skyline Tower, 39 Wang Kwong Road, Kowloon Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-21:30",
+      "tuesday": "08:30-21:30",
+      "wednesday": "08:30-21:30",
+      "thursday": "08:30-21:30",
+      "friday": "08:30-21:30",
+      "saturday": "08:30-18:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": [
+      {
+        "tc": "必須經過預約",
+        "sc": "必须經过预约",
+        "en": "Advance booking is required"
+      }
+    ]
+  },
+  {
+    "id": "quality-healthcare-kowloon-bay-telford",
+    "region": "hk",
+    "district": {
+      "tc": "觀塘",
+      "sc": "观塘",
+      "en": "Kwun Tong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (九龍灣-德福花園)",
+      "sc": "卓健医疗中心 (九龙湾-德福花园)",
+      "en": "Quality HealthCare Medical Centre (Kowloon Bay - Telford)"
+    },
+    "address": {
+      "tc": "九龍灣德褔花園地下I座",
+      "sc": "九龙湾德福花园地下I座",
+      "en": "Block I, G/F, Telford Gardens, Kowloon Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:00-21:00",
+      "tuesday": "08:00-21:00",
+      "wednesday": "08:00-21:00",
+      "thursday": "08:00-21:00",
+      "friday": "08:00-21:00",
+      "saturday": "08:00-19:00",
+      "sunday": "09:00-18:00",
+      "public_holiday": "09:00-18:00"
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-kwun-tong-apm",
+    "region": "hk",
+    "district": {
+      "tc": "觀塘",
+      "sc": "观塘",
+      "en": "Kwun Tong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (觀塘-創紀之城五期APM)",
+      "sc": "卓健医疗中心 (观塘-创纪之城五期APM)",
+      "en": "Quality HealthCare Medical Centre (Kwun Tong-Millennium City 5, APM)"
+    },
+    "address": {
+      "tc": "觀塘觀塘道418號創紀之城五期(APM)東亞銀行中心25樓2502-03A室",
+      "sc": "观塘观塘道418号创纪之城五期(APM)东亚银行中心25楼2502-03A室",
+      "en": "Unit 2502-03A, 25/F, BEA Tower, Millennium City 5 (APM), 418 Kwun Tong Road, Kwun Tong"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:30",
+      "tuesday": "09:00-13:00, 14:00-18:30",
+      "wednesday": "09:00-13:00, 14:00-18:30",
+      "thursday": "09:00-13:00, 14:00-18:30",
+      "friday": "09:00-13:00, 14:00-18:30",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-kowloon-bay-amoy-plaza",
+    "region": "hk",
+    "district": {
+      "tc": "觀塘",
+      "sc": "观塘",
+      "en": "Kwun Tong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (九龍灣-淘大商場)",
+      "sc": "卓健医疗中心 (九龙湾-淘大商场)",
+      "en": "Quality HealthCare Medical Centre (Kowloon Bay-Amoy Plaza)"
+    },
+    "address": {
+      "tc": "九龍灣牛頭角道77號淘大商場一期地下G3A號舖",
+      "sc": "九龙湾牛头角道77号淘大商场一期地下G3A号铺",
+      "en": "Shop No. G3A, Amoy Plaza Phase 1, 77 Ngau Tau Kok Road, Kowloon Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-19:00",
+      "tuesday": "09:00-13:30, 14:30-19:00",
+      "wednesday": "09:00-13:30, 14:30-19:00",
+      "thursday": "09:00-13:30, 14:30-19:00",
+      "friday": "09:00-13:30, 14:30-19:00",
+      "saturday": "09:00-13:30, 14:30-19:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-digihealth-point",
+    "region": "hk",
+    "district": {
+      "tc": "觀塘",
+      "sc": "观塘",
+      "en": "Kwun Tong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (觀塘-海濱匯 數碼e健站)",
+      "sc": "卓健医疗中心 (观塘-海滨汇 数码e健站)",
+      "en": "Quality HealthCare Medical Centre (DigiHealth Point)"
+    },
+    "address": {
+      "tc": "九龍灣海濱道77號海濱匯2樓7號舖",
+      "sc": "九龙湾海滨道77号海滨汇2楼7号铺",
+      "en": "Shop no.7, 2/F, The Quayside, 77 Hoi Bun Road, Kowloon Bay"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:00",
+      "tuesday": "09:00-13:00, 14:00-18:00",
+      "wednesday": "09:00-13:00, 14:00-18:00",
+      "thursday": "09:00-13:00, 14:00-18:00",
+      "friday": "09:00-13:00, 14:00-18:00",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": [
+      {
+        "tc": "必須經過預約",
+        "sc": "必须經过预约",
+        "en": "Advance booking is required"
+      }
+    ]
+  },
+  {
+    "id": "quality-healthcare-tseung-kwan-o",
+    "region": "hk",
+    "district": {
+      "tc": "西貢",
+      "sc": "西貢",
+      "en": "Sai Kung"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (將軍澳)",
+      "sc": "卓健医疗中心 (将军澳)",
+      "en": "Quality HealthCare Medical Centre (Tseung Kwan O)"
+    },
+    "address": {
+      "tc": "將軍澳新都城中心一期商場2樓234-236號舖",
+      "sc": "将军澳新都城中心一期商场2楼234-236号铺",
+      "en": "Shop 234-236, 2/F, Metro City Plaza Phase 1, Tseung Kwan O"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-19:00",
+      "tuesday": "08:30-19:00",
+      "wednesday": "08:30-19:00",
+      "thursday": "08:30-19:00",
+      "friday": "08:30-19:00",
+      "saturday": "08:30-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-lok-fu",
+    "region": "hk",
+    "district": {
+      "tc": "黃大仙",
+      "sc": "黄大仙",
+      "en": "Wong Tai Sin"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (樂富)",
+      "sc": "卓健医疗中心 (乐富)",
+      "en": "Quality HealthCare Medical Centre (Lok Fu)"
+    },
+    "address": {
+      "tc": "九龍橫頭磡聯合道198號樂富廣場B區2樓2213號舖",
+      "sc": "九龙横头磡联合道198号乐富广场B区2楼2213号铺",
+      "en": "Shop No. 2213, 2/F, Zone B, Lok Fu Place, 98 Junction Road, Wang Tau Hom"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:00",
+      "tuesday": "09:00-13:30, 14:30-18:00",
+      "wednesday": "09:00-13:30, 14:30-18:00",
+      "thursday": "09:00-13:30, 14:30-18:00",
+      "friday": "09:00-13:30, 14:30-18:00",
+      "saturday": "09:00-13:30, 14:30-18:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "alpha-medical-diagnostic-centre-jordan",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "進領醫學診斷中心 (佐敦)",
+      "sc": "进领医学诊断中心 (佐敦)",
+      "en": "Alpha Medical Diagnostic Centre (Jordan)"
+    },
+    "address": {
+      "tc": "佐敦佐敦道8號LG及UG",
+      "sc": "佐敦佐敦道8号LG及UG",
+      "en": "LG & UG Floor, 8 Jordan Road, Jordan"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-19:00",
+      "tuesday": "09:00-19:00",
+      "wednesday": "09:00-19:00",
+      "thursday": "09:00-19:00",
+      "friday": "09:00-19:00",
+      "saturday": "09:00-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "alpha-medical-diagnostic-centre-tsim-sha-tsui",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "進領醫學診斷中心 (尖沙咀)",
+      "sc": "进领医学诊断中心 (尖沙咀)",
+      "en": "Alpha Medical Diagnostic Centre (Tsim Sha Tsui)"
+    },
+    "address": {
+      "tc": "九龍尖沙咀金馬倫道23-25A金馬倫廣場1樓B室",
+      "sc": "九龙尖沙咀金马伦道23-25A金马伦广场1楼B室",
+      "en": "Shop B, 1/F, Cameron Plaza, 23-25A Cameron Road, Tsim Sha Tsui"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:00",
+      "tuesday": "09:00-13:00, 14:00-18:00",
+      "wednesday": "09:00-13:00, 14:00-18:00",
+      "thursday": "09:00-13:00, 14:00-18:00",
+      "friday": "09:00-13:00, 14:00-18:00",
+      "saturday": "09:00-13:00, 14:00-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "alpha-medical-diagnostic-centre-mongkok-pioneer-centre",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "進領醫學診斷中心 (旺角)",
+      "sc": "进领医学诊断中心 (旺角)",
+      "en": "Alpha Medical Diagnostic Centre (MK-Pioneer Centre)"
+    },
+    "address": {
+      "tc": "九龍旺角彌敦道750號始創中心12樓1220至1230室",
+      "sc": "九龙旺角弥敦道750号始创中心12楼1220至1230室",
+      "en": "Unit 1220-30, 12/F, Pioneer Centre, 750 Nathan Rd, Mongkok"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-19:00",
+      "tuesday": "09:00-19:00",
+      "wednesday": "09:00-19:00",
+      "thursday": "09:00-19:00",
+      "friday": "09:00-19:00",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-kowloon-mtr-station",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (港鐵九龍站)",
+      "sc": "卓健医疗中心 (港铁九龙站)",
+      "en": "Quality HealthCare Medical Centre (Kowloon MTR Station)"
+    },
+    "address": {
+      "tc": "尖沙咀港鐵九龍站L2機場快綫抵站大堂KOW83商鋪",
+      "sc": "尖沙咀港铁九龙站L2机场快线抵站大堂KOW83商铺",
+      "en": "Concession No. KOW 83, L2 Airport Express Line Arrival Concourse, MTR Kowloon Station, Kowloon"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:00",
+      "tuesday": "09:00-13:30, 14:30-18:00",
+      "wednesday": "09:00-13:30, 14:30-18:00",
+      "thursday": "09:00-13:30, 14:30-18:00",
+      "friday": "09:00-13:30, 14:30-18:00",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-mongkok",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (旺角)",
+      "sc": "卓健医疗中心 (旺角)",
+      "en": "Quality HealthCare Medical Centre (Mongkok)"
+    },
+    "address": {
+      "tc": "旺角彌敦道664號惠豐中心8樓",
+      "sc": "旺角弥敦道664号惠丰中心8楼",
+      "en": "8/F, Wai Fung Plaza, 664 Nathan Road, Mongkok"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-18:30",
+      "tuesday": "08:30-18:30",
+      "wednesday": "08:30-18:30",
+      "thursday": "08:30-18:30",
+      "friday": "08:30-18:30",
+      "saturday": "08:30-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-tsim-sha-tsui",
+    "region": "hk",
+    "district": {
+      "tc": "油尖旺",
+      "sc": "油尖旺",
+      "en": "Yau Tsim Mong"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (尖沙咀)",
+      "sc": "卓健医疗中心 (尖沙咀)",
+      "en": "Quality HealthCare Medical Centre (Tsim Sha Tsui)"
+    },
+    "address": {
+      "tc": "尖沙咀漢口道28號亞太中心6樓601-605室",
+      "sc": "尖沙咀汉口道28号亚太中心6楼601-605室",
+      "en": "Flat 601-605, 6/F, Hong Kong Pacific Centre, 28 Hankow Road, Tsim Sha Tsui"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:00, 14:00-18:00",
+      "tuesday": "08:30-13:00, 14:00-18:00",
+      "wednesday": "08:30-13:00, 14:00-18:00",
+      "thursday": "08:30-13:00, 14:00-18:00",
+      "friday": "08:30-13:00, 14:00-18:00",
+      "saturday": "08:30-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "precious-blood-hospital-caritas",
+    "region": "hk",
+    "district": {
+      "tc": "深水埗",
+      "sc": "深水埗",
+      "en": "Sham Shui Po"
+    },
+    "name": {
+      "tc": "寶血醫院(明愛)",
+      "sc": "宝血医院(明爱)",
+      "en": "Precious Blood Hospital (Caritas)"
+    },
+    "address": {
+      "tc": "心電圖服務: 深水埗青山道113號1樓\n抽血服務: 深水埗青山道113號4樓",
+      "sc": "心电图服务: 深水埗青山道113号1楼\n抽血服务: 深水埗青山道113号4楼",
+      "en": "ECG Service: 1/F, 113 Castle Peak Road, Sham Shui Po\nBlood Collection Service: 4/F, 113 Castle Peak Road, Sham Shui Po"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-17:00",
+      "saturday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": [
+      {
+        "tc": "必須經過預約",
+        "sc": "必须經过预约",
+        "en": "Advance booking is required"
+      },
+      {
+        "tc": "星期六休息",
+        "sc": "星期六休息",
+        "en": "Closed on Sat"
+      }
+    ]
+  },
+  {
+    "id": "quality-healthcare-tsing-yi-maritime-square",
+    "region": "hk",
+    "district": {
+      "tc": "葵青",
+      "sc": "葵青",
+      "en": "Kwai Tsing"
+    },
+    "name": {
+      "tc": "卓健醫療體檢中心 (青衣 - 青衣城)",
+      "sc": "卓健医疗体检中心 (青衣 - 青衣城)",
+      "en": "Quality HealthCare Medical Centre (Tsing Yi - Maritime Square)"
+    },
+    "address": {
+      "tc": "青衣青敬路33號青衣城一期3樓308D號舖",
+      "sc": "青衣青敬路33号青衣城一期3楼308D号铺",
+      "en": "Shop 308D, Level 3, Maritime Square Phase 1, 33 Tsing King Road, Tsing Yi"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-19:00",
+      "tuesday": "08:30-19:00",
+      "wednesday": "08:30-19:00",
+      "thursday": "08:30-19:00",
+      "friday": "08:30-19:00",
+      "saturday": "09:00-17:00",
+      "sunday": "09:00-17:00",
+      "public_holiday": "09:00-17:00"
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-tsing-yi-mtr-station",
+    "region": "hk",
+    "district": {
+      "tc": "葵青",
+      "sc": "葵青",
+      "en": "Kwai Tsing"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (青衣 - 青衣站)",
+      "sc": "卓健医疗中心 (青衣 - 青衣站)",
+      "en": "Quality HealthCare Medical Centre (Tsing Yi - MTR Station)"
+    },
+    "address": {
+      "tc": "青衣青衣機鐵站地下TSY47號舖",
+      "sc": "青衣青衣机铁站地下TSY47号铺",
+      "en": "Shop TSY 47, G/F, MTR Tsing Yi Station, Tsing Yi"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:30, 14:30-19:00",
+      "tuesday": "08:30-13:30, 14:30-19:00",
+      "wednesday": "08:30-13:30, 14:30-19:00",
+      "thursday": "08:30-13:30, 14:30-19:00",
+      "friday": "08:30-13:30, 14:30-18:30",
+      "saturday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": [
+      {
+        "tc": "星期六休息",
+        "sc": "星期六休息",
+        "en": "Closed on Sat"
+      }
+    ]
+  },
+  {
+    "id": "quality-healthcare-ma-on-shan",
+    "region": "hk",
+    "district": {
+      "tc": "沙田",
+      "sc": "沙田",
+      "en": "Sha Tin"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (馬鞍山)",
+      "sc": "卓健医疗中心 (马鞍山)",
+      "en": "Quality HealthCare Medical Centre (Ma On Shan)"
+    },
+    "address": {
+      "tc": "馬鞍山西沙路608號馬鞍山廣場210號舖",
+      "sc": "马鞍山西沙路608号马鞍山广场210号铺",
+      "en": "Shop 210, Level 2, Ma On Shan Plaza, 608 Sai Sha Road, Ma On Shan"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:00, 14:00-18:00",
+      "tuesday": "08:30-13:00, 14:00-18:00",
+      "wednesday": "08:30-13:00, 14:00-18:00",
+      "thursday": "08:30-13:00, 14:00-18:00",
+      "friday": "08:30-13:00, 14:00-18:00",
+      "saturday": "08:30-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-sha-tin-wai",
+    "region": "hk",
+    "district": {
+      "tc": "沙田",
+      "sc": "沙田",
+      "en": "Sha Tin"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (沙田圍站)",
+      "sc": "卓健医疗中心 (沙田围站)",
+      "en": "Quality HealthCare Medical Centre (Sha Tin Wai)"
+    },
+    "address": {
+      "tc": "沙田港鐵沙田圍站6-7號舖",
+      "sc": "沙田港铁沙田围站6-7号铺",
+      "en": "Shops No. 6&7, MTR Sha Tin Wai Station, Sha Tin"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:30-19:30",
+      "tuesday": "09:00-13:00, 14:30-19:30",
+      "wednesday": "09:00-13:00, 14:30-19:30",
+      "thursday": "09:00-13:00, 14:30-19:30",
+      "friday": "09:00-13:00, 14:30-19:30",
+      "saturday": "09:00-13:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-shatin",
+    "region": "hk",
+    "district": {
+      "tc": "沙田",
+      "sc": "沙田",
+      "en": "Sha Tin"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (沙田)",
+      "sc": "卓健医疗中心 (沙田)",
+      "en": "Quality HealthCare Medical Centre (Shatin)"
+    },
+    "address": {
+      "tc": "沙田白鶴汀街10-18號新城市商業大廈9樓905-907室",
+      "sc": "沙田白鹤汀街10-18号新城市商业大厦9楼905-907室",
+      "en": "Rm 905-907, New Town Tower, 10-18 Pak Hok Ting Street, Shatin"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-19:00",
+      "tuesday": "08:30-19:00",
+      "wednesday": "08:30-19:00",
+      "thursday": "08:30-19:00",
+      "friday": "08:30-19:00",
+      "saturday": "08:30-17:00",
+      "sunday": "09:00-13:00",
+      "public_holiday": "09:00-13:00"
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-shek-mun",
+    "region": "hk",
+    "district": {
+      "tc": "沙田",
+      "sc": "沙田",
+      "en": "Sha Tin"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (石門)",
+      "sc": "卓健医疗中心 (石门)",
+      "en": "Quality HealthCare Medical Centre (Shek Mun)"
+    },
+    "address": {
+      "tc": "沙田石門安群街3號京瑞廣場1期地下G36號舖",
+      "sc": "沙田石门安群街3号京瑞广场1期地下G36号铺",
+      "en": "Shop G36, G/F, Kings Wing Plaza 1, No.3 On Kwan Street, Shek Mun, Shatin"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-19:00",
+      "tuesday": "09:00-13:30, 14:30-19:00",
+      "wednesday": "09:00-13:30, 14:30-19:00",
+      "thursday": "09:00-13:30, 14:30-19:00",
+      "friday": "09:00-13:30, 14:30-19:00",
+      "saturday": "09:00-13:30, 14:30-19:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "hong-kong-health-check-shatin",
+    "region": "hk",
+    "district": {
+      "tc": "沙田",
+      "sc": "沙田",
+      "en": "Sha Tin"
+    },
+    "name": {
+      "tc": "香港體檢及醫學診斷中心 (沙田分部)",
+      "sc": "香港体检及医学诊断中心 (沙田分部)",
+      "en": "Hong Kong Health Check & Medical Diagnostic Centre (Shatin Branch)"
+    },
+    "address": {
+      "tc": "沙田沙田車站圍1號連城廣場2樓208-211號舖",
+      "sc": "沙田沙田车站围1号连城广场2楼208-211号铺",
+      "en": "Shop 208-211, 2/F, Citylink Plaza, 1 Shatin Station Circuit, Shatin"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-18:30",
+      "tuesday": "09:00-18:30",
+      "wednesday": "09:00-18:30",
+      "thursday": "09:00-18:30",
+      "friday": "09:00-18:30",
+      "saturday": "09:00-18:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-tai-po",
+    "region": "hk",
+    "district": {
+      "tc": "大埔",
+      "sc": "大埔",
+      "en": "Tai Po"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (大埔)",
+      "sc": "卓健医疗中心 (大埔)",
+      "en": "Quality HealthCare Medical Centre (Tai Po)"
+    },
+    "address": {
+      "tc": "大埔廣福道71號地下",
+      "sc": "大埔广福道71号地下",
+      "en": "G/F, No. 71 Kwong Fuk Road, Tai Po"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:30",
+      "tuesday": "09:00-13:30, 14:30-19:00",
+      "wednesday": "09:00-13:30, 14:30-18:30",
+      "thursday": "09:00-13:30, 14:30-18:30",
+      "friday": "09:00-13:30, 14:30-18:30",
+      "saturday": "09:00-13:30, 14:30-18:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "hong-kong-health-check-sheung-shui",
+    "region": "hk",
+    "district": {
+      "tc": "北區",
+      "sc": "北区",
+      "en": "North"
+    },
+    "name": {
+      "tc": "香港體檢及醫學診斷中心 (上水分部)",
+      "sc": "香港体检及医学诊断中心 (上水分部)",
+      "en": "Hong Kong Health Check & Medical Diagnostic Centre (Sheung Shui Branch)"
+    },
+    "address": {
+      "tc": "新界上水龍琛路39號上水廣場8樓811室",
+      "sc": "新界上水龙琛路39号上水广场8楼811室",
+      "en": "Unit 811, Level 8, Landmark North, 39 Lung Sum Avenue, Sheung Shui"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-18:30",
+      "tuesday": "09:00-18:30",
+      "wednesday": "09:00-18:30",
+      "thursday": "09:00-18:30",
+      "friday": "09:00-18:30",
+      "saturday": "09:00-17:00",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-tuen-mun-parklane-square",
+    "region": "hk",
+    "district": {
+      "tc": "屯門",
+      "sc": "屯门",
+      "en": "Tuen Mun"
+    },
+    "name": {
+      "tc": "卓健醫療中心 (屯門-栢麗廣場)",
+      "sc": "卓健医疗中心 (屯门-栢丽广场)",
+      "en": "Quality HealthCare Medical Centre (Tuen Mun - Parklane Square)"
+    },
+    "address": {
+      "tc": "屯門屯喜路2號屯門柏麗廣場23樓2318室",
+      "sc": "屯门屯喜路2号屯门柏丽广场23楼2318室",
+      "en": "Room 2318, 23/F, South Wing, Tuen Mun Parklane Square, 2 Tuen Hi Road, Tuen Mun"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:30, 14:30-18:00",
+      "tuesday": "09:00-13:30, 14:30-18:00",
+      "wednesday": "09:00-13:30, 14:30-18:00",
+      "thursday": "09:00-13:30, 14:30-18:00",
+      "friday": "09:00-13:30, 14:30-18:00",
+      "saturday": "09:00-13:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "quality-healthcare-yuen-long-yuccie-square",
+    "region": "hk",
+    "district": {
+      "tc": "元朗",
+      "sc": "元朗",
+      "en": "Yuen Long"
+    },
+    "name": {
+      "tc": "卓健醫療體檢中心 (元朗-世宙商場)",
+      "sc": "卓健医疗体检中心 (元朗-世宙商场)",
+      "en": "Quality HealthCare Medical Centre (Yuen Long - Yuccie Square)"
+    },
+    "address": {
+      "tc": "元朗安寧路38號世宙商場地下25號舖",
+      "sc": "元朗安宁路38号世宙商场地下25号铺",
+      "en": "Shop 25, G/F, Yuccie Square, No. 38 Yuen Long On Ning Road, Yuen Long"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-13:30, 14:30-18:30",
+      "tuesday": "08:30-13:30, 14:30-18:30",
+      "wednesday": "08:30-13:30, 14:30-18:30",
+      "thursday": "08:30-13:30, 14:30-18:30",
+      "friday": "08:30-13:30, 14:30-18:30",
+      "saturday": "08:30-13:30, 14:30-18:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "hong-kong-health-check-yuen-long",
+    "region": "hk",
+    "district": {
+      "tc": "元朗",
+      "sc": "元朗",
+      "en": "Yuen Long"
+    },
+    "name": {
+      "tc": "香港體檢及醫學診斷中心 (元朗分部)",
+      "sc": "香港体检及医学诊断中心 (元朗分部)",
+      "en": "Hong Kong Health Check & Medical Diagnostic Centre (Yuen Long Branch)"
+    },
+    "address": {
+      "tc": "新界元朗水車館街28號萬金中心19-20號舖",
+      "sc": "新界元朗水车馆街28号万金中心19-20号铺",
+      "en": "Shop 19-20, Golden Plaza, 28 Shui Che Kwun Street, Yuen Long"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "08:30-19:00",
+      "tuesday": "08:30-19:00",
+      "wednesday": "08:30-19:00",
+      "thursday": "08:30-19:00",
+      "friday": "08:30-19:00",
+      "saturday": "08:30-18:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  },
+  {
+    "id": "alpha-medical-diagnostic-centre-tsuen-wan-nan-fung-centre",
+    "region": "hk",
+    "district": {
+      "tc": "荃灣",
+      "sc": "荃湾",
+      "en": "Tsuen Wan"
+    },
+    "name": {
+      "tc": "進領醫學診斷中心 (荃灣-南豐中心)",
+      "sc": "进领医学诊断中心 (荃湾-南丰中心)",
+      "en": "Alpha Medical Diagnostic Centre (TW-Nan Fung Centre)"
+    },
+    "address": {
+      "tc": "荃灣青山道264-298號南豐中心7樓719-720室",
+      "sc": "荃湾青山道264-298号南丰中心7楼719-720室",
+      "en": "Room 719-720, Nan Fung Centre, 264-298 Castle Peak Road, Tsuen Wan"
+    },
+    "phone": null,
+    "bookingHotline": "+852 8301-8301",
+    "hours": {
+      "monday": "09:00-13:00, 14:00-18:00",
+      "tuesday": "09:00-13:00, 14:00-18:00",
+      "wednesday": "09:00-13:00, 14:00-18:00",
+      "thursday": "09:00-13:00, 14:00-18:00",
+      "friday": "09:00-13:00, 14:00-18:00",
+      "saturday": "09:00-14:30",
+      "sunday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      },
+      "public_holiday": {
+        "tc": "休息",
+        "sc": "休息",
+        "en": "Closed"
+      }
+    },
+    "notes": []
+  }
+]
