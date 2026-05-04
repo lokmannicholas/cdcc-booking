@@ -54,7 +54,7 @@ interface RawClinicHours {
 
 interface RawClinicDefinition {
   id: string;
-  district: LocalizedText;
+  region: RegionCode;
   name: LocalizedText;
   address: LocalizedText;
   phone: string | null;
@@ -66,7 +66,7 @@ const rawClinics = clinicsData as RawClinicDefinition[];
 
 export const clinics: ClinicDefinition[] = rawClinics.map((clinic) => ({
   id: clinic.id,
-  region: mapDistrictToRegion(clinic.district),
+  region: clinic.region,
   name: clinic.name,
   address: clinic.address,
   phone: clinic.phone ?? clinic.bookingHotline ?? '',
@@ -104,24 +104,6 @@ export function getNearbyClinicAlternative(clinic: ClinicDefinition): ClinicDefi
   const alternativeClinicId = matchingGroup.find((clinicId) => clinicId !== clinic.id);
 
   return alternativeClinicId ? (clinicsById.get(alternativeClinicId) ?? null) : null;
-}
-
-function mapDistrictToRegion(district: LocalizedText): RegionCode {
-  const districtTc = district.tc;
-
-  if (['中西區', '灣仔', '东區', '東區', '南區'].includes(districtTc)) {
-    return 'hk';
-  }
-
-  if (['油尖旺', '深水埗', '九龍城', '九龙城', '黃大仙', '黄大仙', '觀塘', '观塘'].includes(districtTc)) {
-    return 'kl';
-  }
-
-  if (['離島', '离岛'].includes(districtTc)) {
-    return 'islands';
-  }
-
-  return 'nt';
 }
 
 function normalizeBusinessHourValue(value: BusinessHourValue | undefined): LocalizedText {
