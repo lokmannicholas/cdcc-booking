@@ -775,7 +775,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.75rem;
   margin-top: 0;
   padding-top: 0.25rem;
   background: var(--panel-bg);
@@ -785,31 +785,39 @@
 .primaryButton {
   border: none;
   border-radius: 0.95rem;
-  min-width: 8.4rem;
-  height: 4rem;
-  padding: 0 1.5rem;
+  min-width: 6rem;
+  height: 2.8rem;
+  padding: 0 1rem;
   color: #fff;
-  font-size: 1.45rem;
+  font-size: 0.95rem;
   line-height: 1;
   font-weight: 800;
   box-shadow: var(--shadow);
 }
 
 .secondaryButton {
-  background: var(--muted);
+  background: #bdc3c9;
 }
 
 .primaryButton {
-  background: var(--primary);
+  background: #0079c8;
+}
+
+.secondaryButton:hover,
+.primaryButton:hover,
+.modalButton:hover {
+  background: #0d1846;
 }
 
 .primaryButton:disabled {
-  opacity: 0.75;
+  background: #c6e3f4;
+  opacity: 1;
   cursor: progress;
 }
 
 .primaryButtonLoading {
-  opacity: 0.75;
+  background: #c6e3f4;
+  opacity: 1;
 }
 
 .successStage {
@@ -886,12 +894,12 @@
 .modalButton {
   border: none;
   border-radius: 0.85rem;
-  min-width: 7rem;
-  height: 3.5rem;
-  padding: 0 1.2rem;
-  background: var(--primary-dark);
+  min-width: 6rem;
+  height: 2.8rem;
+  padding: 0 1rem;
+  background: #0079c8;
   color: #fff;
-  font-size: 1.35rem;
+  font-size: 0.95rem;
   font-weight: 800;
   box-shadow: var(--shadow);
 }
@@ -1080,9 +1088,9 @@
 
   .secondaryButton,
   .primaryButton {
-    min-width: 7rem;
-    height: 3.55rem;
-    font-size: 1.2rem;
+    min-width: 6rem;
+    height: 2.8rem;
+    font-size: 0.95rem;
   }
 
   .successCard {
