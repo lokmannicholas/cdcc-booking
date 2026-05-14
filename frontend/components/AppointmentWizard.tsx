@@ -46,8 +46,7 @@ import {
 } from './icons';
 
 const STORAGE_KEY = 'qhc-booking-draft-v1';
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:4000';
-const SUBSCRIPTION_KEY = process.env.NEXT_PUBLIC_SUBSCRIPTION_KEY;
+const SUBMISSIONS_ENDPOINT = '/api/submissions';
 const publicHolidayDates = new Set<string>(publicHolidays2026.dates);
 
 const initialFormState: FormState = {
@@ -354,17 +353,11 @@ export default function AppointmentWizard({
     };
 
     try {
-      const headers: Record<string, string> = {
-        'Content-Type': 'application/json'
-      };
-
-      if (SUBSCRIPTION_KEY) {
-        headers['Ocp-Apim-Subscription-Key'] = SUBSCRIPTION_KEY;
-      }
-
-      const response = await fetch(`${API_BASE_URL}/api/submissions`, {
+      const response = await fetch(SUBMISSIONS_ENDPOINT, {
         method: 'POST',
-        headers,
+        headers: {
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify(payload)
       });
 
