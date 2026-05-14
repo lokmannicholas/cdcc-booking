@@ -82,6 +82,7 @@ npm run dev
 
 ```bash
 NEXT_PUBLIC_API_BASE_URL=http://localhost:4000
+NEXT_PUBLIC_SUBSCRIPTION_KEY=your-subscription-key
 ```
 
 ### Server (`server/.env`)
